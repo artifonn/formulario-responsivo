@@ -9,10 +9,10 @@
 }
 
 :root  {
-    --bg-color:#8880fe;
-    --cor-principal:#182029;
+    --bg-color: #182029;
+    --cor-principal:#8880fe;
     --cor-texto-input:#202c3a;
-}
+} 
 
 body {
     display: flex;
@@ -57,6 +57,7 @@ body {
     display: flex;
     flex-direction: column-reverse;
     height: 40px;
+    margin-top: 40px;
 }
 
 .inputbox input {
@@ -87,10 +88,10 @@ body {
 }
 
 .inputbox label {
-     position: relative;
-     top: 0;
-     left: 10px;
-     font-size: 1.25rem;
+    position: relative;
+    top: 0;
+    left: 10px;
+    font-size: 1.25rem;
     color: var(--cor-principal);
     transition: 0.5s;
 }
@@ -107,6 +108,7 @@ body {
     font-weight: 800;
     border-radius: 2px;
     border-bottom: solid 4px var(--cor-principal);
+    margin-top: 40px;
 }
 
 .container button:hover {
